@@ -1,0 +1,17 @@
+body{
+    background-color: lightgreen;
+    color: blue;
+    text-align: center;
+    margin: auto
+    }
+
+    #titulo{
+        color: orangered;
+        font-size: 40px;
+    }
+
+    .imagenes{
+        width: 360px;
+        height: 160px;
+        display: block;
+        }
