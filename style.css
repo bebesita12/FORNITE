@@ -15,3 +15,11 @@ body{
         height: 160px;
         display: block;
         }
+     a:hover{
+         color: chocolate;
+         font-size: 30px;
+         font-style: initial;
+         }   
+     #miSuperTitulo{
+         font-size: 50px;
+     }    
