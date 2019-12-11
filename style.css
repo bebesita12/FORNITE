@@ -23,3 +23,36 @@ body{
      #miSuperTitulo{
          font-size: 50px;
      }    
+    p{
+        border: 10px solid black;
+        padding: 10px;
+        margin: 10px;
+    }
+    h1{
+        background-color:rgba(235, 232, 19, 0.959);
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        font-size: 30px;
+    }
+    body{
+        background-color: aqua;
+        color: rgba(171, 77, 233);
+        text-align: center;
+    }
+    #mititulo{
+        color: rgba(211, 35, 137);
+        font-size: 40px;
+        border: 20px solid black;
+    }
+    a:hover{
+        color: rgba(78, 201, 41);
+        font-size: 20px;
+        font-style: italic;
+        padding: 20px;
+
+    }
+    .hiper{
+        margin-left: 20px;
+        margin-right: 20px
+    }
