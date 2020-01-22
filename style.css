@@ -142,6 +142,16 @@ body{
     position: static;
  
 }
+
+.imagenes:hover{
+transition-duration:2s;
+transition-timing-function: linear;
+transform: translateX(5px)  scale(1.2);
+filter: blur(1px);
+   
+
+}
+
    
 
     
