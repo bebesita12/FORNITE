@@ -151,7 +151,57 @@ filter: blur(1px);
    
 
 }
-
    
+img{
+    animation-name: animacion;
+    animation-duration: 2000ms;
+    animation-delay: 1s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+@keyframes animacion{
+    20%{
+        transform: scale(4,5)
+    }
+    70%{
+       transform: rotateZ(150deg); 
+    }   }
 
     
+    
+    100%{
+        transform: rotate(90deg);
+        transform: translate(10px,30px);
+        filter: contrast(300%);
+    }
+    
+    .cuadro5{
+        animation-name: animacion;
+        animation-duration: 2000ms;
+        animation-delay: 1s;
+        animation-timing-function:linear;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+    
+    @keyframes animacion { 
+        
+        0%{
+        transform: scale(96,50)
+    }
+    50%{
+       transform: rotateZ(150deg); 
+    }
+    
+    
+    100%{
+        transform: rotate(90deg);
+        transform: translate(10px,30px);
+        filter: contrast(300%);
+    }
+}
+        
+    
+       
